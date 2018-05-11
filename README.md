@@ -1,6 +1,6 @@
 # pkrestwebapinode10_3ed
-## 1 REST
-### The rest goals
+## 1 REST fundamentals
+## 2 The rest goals
 | Method       | safe          | Idempotent |
 | ------------- |:-------------:|:-----:|
 | get      | yes |yes|
@@ -8,7 +8,10 @@
 | put | no      |    yes |
 | delete | no      |    yes |
 
-## 3 Building a typical
+
+## 2 Getting Started with Node.js
+## 3 Building a Typical Web API
+### Specifying the API
 ######Querying the API
 ```
 app.get('/contacts', 
@@ -34,3 +37,4 @@ response.format( {
 }); 
 }); 
 ```
+## Preparing a RESTful API for Production
