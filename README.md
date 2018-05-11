@@ -1,6 +1,6 @@
-#### pkrestwebapinode2ed
-#####1 REST
-######The rest goals
+# pkrestwebapinode10_3ed
+## 1 REST
+### The rest goals
 | Method       | safe          | Idempotent |
 | ------------- |:-------------:|:-----:|
 | get      | yes |yes|
@@ -8,7 +8,7 @@
 | put | no      |    yes |
 | delete | no      |    yes |
 
-#####3 Building a typical
+## 3 Building a typical
 ######Querying the API
 ```
 app.get('/contacts', 
@@ -17,7 +17,7 @@ app.get('/contacts',
 			
 			if (Object.keys(get_params).length === 0)
 ```
-######Content negotiation
+#### Content negotiation
 Accept HTTP header specifies the media type of the resource that the consumer is willing to process.,for example
 ```
 app.get('/groups', function(request, response) { 
